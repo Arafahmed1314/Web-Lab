@@ -1,0 +1,165 @@
+*{
+    /* margin: 0; */
+    padding: 0;
+    outline: 0;
+}
+body{
+    background-color: white;
+    margin: 0;
+}
+.mysite{
+    width: 90%;
+    margin: auto;
+    background-color: #F9F6EE;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* background-color: #FCF5E5;
+    width: 90%;
+    margin: auto; */
+
+}
+.container h1{
+    font-size: 45px;
+}
+.head{
+    background-color: #F9F6EE;
+    width: 100%;
+    text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+    height: 10vh;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+width: 90%;
+gap: 10rem;
+height: 90vh;
+margin: auto;
+}
+.container img{
+    border-radius: 50%;
+    margin: 0 auto;
+    width: 400px;
+}
+.container p{
+    width: 90%;
+    font-size: 20px;
+    text-align: justify;
+}
+.github, .mail{
+    background-color: #ead9bf;
+border: none;
+    padding: 12px;
+    border-radius: 10px;
+    margin-right: 12px;
+    transition: all 0.4s;
+
+}
+button:hover{
+    background-color: #d6ab6a;
+    cursor: pointer;
+}
+button a{
+    color: black;
+}
+.desc a{
+    /* color: white; */
+    font-size: 20px;
+    text-decoration: none;
+  font-weight: bold;
+}
+.album{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100vh;
+}
+.audio_video{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    justify-content: space-between;
+    /* flex-direction: column; */
+}
+.video,.audio{
+    width: 400px;
+    height: 450px;
+    /* background-color: aqua; */
+    /* background-color: #f9eddb; */
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+box-shadow: rgba(100, 100, 111, 0.2) 0px -7px 19px 0px;
+
+border-radius: 0 40px 0 0;
+}
+
+.heading{
+    /* background-color: #d6ab6a; */
+    width: 100%;
+    height: 20%;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(52, 49, 49);
+}
+.audio h1{
+    padding-bottom: 18px;
+}
+video{
+    width: 100%;
+height: 80%;
+}
+audio{
+    width: 100%;
+padding-bottom: 30px;
+   /* height: 80%; */
+}
+.courses{
+    flex-direction: column;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 80%;
+margin: auto;
+height: 100vh;
+}
+.courses dd{
+    font-size: 17px;
+    text-align: justify;
+
+}
+.courses dt{
+    margin: 12px 0;
+}
+.routine{
+    display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+height: 100vh;
+}
+.routine th ,td{
+    padding: 10px 30px;
+    font-size: 19px;
+}
+.lists dd{
+    font-size: 19px;
+}
+.routine th{
+    font-size: 20px;
+}
+table{
+    border-collapse: collapse;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
